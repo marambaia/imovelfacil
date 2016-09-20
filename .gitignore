@@ -1,0 +1,17 @@
+nbproject
+*~
+*.pfx
+*.pem
+/code/logs/*.php
+composer.lock
+html
+docs
+/.DS_Store
+/.idea
+/.project
+/.buildpath
+/.settings/
+/build
+/phpunit.xml
+/tests/folder
+.coverage

@@ -1,0 +1,54 @@
+{
+    "name": "bernardomais/imovelfacil",
+    "type": "library",
+    "description": "O software Imóvel Fácil é um sistema completo para o gerenciamento comercial da corretagem. Inteiramente construído em PHP, roda em qualquer sistema operacional.",
+    "keywords": ["imovelfacil","imovel","imobiliaria", "imovel facil"],
+    "homepage": "https://github.com/bernardomais/imovelfacil",
+    "license": ["Apache License 2.0"],
+    "authors": [
+        {
+            "name": "Bernardo Albuquerque",
+            "email": "bernardomais@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "bernardomais\\imovelfacil\\": "libs/"
+        },
+        "psr-0": {
+            "": ["libs/", "tests/"]
+        },
+        "classmap": [
+            "./libs/ImovelFacil/",
+            "./libs/Common/",
+            "./libs/Common/Base/",
+            "./libs/Common/Certificate/",
+            "./libs/Common/Configure/",
+            "./libs/Common/DateTime/",
+            "./libs/Common/Dom/",
+            "./libs/Common/Exception/",
+            "./libs/Common/Files/",
+            "./libs/Common/Identify/",
+            "./libs/Common/Keys/",
+            "./libs/Common/LotNumber/",
+            "./libs/Common/Modules/",
+            "./libs/Common/Soap/",
+            "./libs/Common/Strings/",
+            "./libs/Extras/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0.x-dev",
+            "dev-develop": "4.1.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
